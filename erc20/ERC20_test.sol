@@ -9,6 +9,5 @@ contract ERC20_test is ERC20{
     constructor() ERC20("BEE", "BEE") {
         _mint(msg.sender, 1000000*10**18);
     }
-
     
 }
